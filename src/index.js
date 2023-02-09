@@ -1,2 +1,2 @@
-import * as Upload from "./Upload";
+import * as Upload from "../src/Upload";
 console.log(Upload.switcher());
