@@ -27,7 +27,7 @@ export const switcher = () => {
     icon.addEventListener("click", () => {
       carousel.scrollLeft +=
         icon.id == "left" ? -firstImageWidth : firstImageWidth;
-      setTimeout(() => showHideIcon(), 60);
+      setTimeout(() => showHideIcon(), 05);
     });
   });
 
